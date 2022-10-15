@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QRCODE</title>
+</head>
+<body>
+<h1>Crie seu QR Code</h1>
+<br>
+<div class="area-texto">
+    <div id="text-area">
+<textarea maxlength="256" rows="7" placeholder="Insira seu texto ou URL aqui..."></textarea>
+<br>
+</div>
+<div id="botao">
+<button onclick="GerarQRCode()">Gerar QR Code</button>
+<br>
+</div>
+</div>
+
+<div id="img">
+<img id="QRCodeImage">
+</div>
+
+<div class="svg">
+<img src="./svg/undraw_blooming_re_2kc4.svg">
+</div>
+
+<script src="javascript.js"></script>
+
+
+    
+</body>
+</html>
